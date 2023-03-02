@@ -1,0 +1,114 @@
+
+.os{
+margin-left: 50px;
+margin-top: 2px;
+margin-bottom: 20px;
+margin-right: 0;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: medium;
+font-weight:bold ;
+text-align: center;
+}
+.os .one,
+.two,
+.three,
+.four{ padding: 10px;
+
+}
+
+.one{
+    background-color: rgb(238, 167, 15);
+    color: blue;
+}
+.two{
+background-color: black;
+color: beige;
+}
+.three{
+    background-color: rgb(8, 87, 110);
+    color: palevioletred;
+}
+.four{
+    background-color: rgb(235, 41, 41);
+    color: black;
+}
+
+.os{
+    margin-top: 10px;
+    margin-left: 60px;
+    height: 60px;
+    counter-increment: user-counter;
+}
+
+
+.one::before{
+    content:counter(user-counter);
+       content: "0";
+        position: absolute;
+        background-color: inherit;
+        color: inherit;
+        width: 10px;
+        height: 8px;
+        padding: 10px;
+        top: 30px;
+        left: 20px;
+        text-align: inherit;
+        font-size: inherit;
+        font-weight: inherit;
+
+    
+}
+
+.two::before{
+    content:counter(user-counter);
+    content: "0";
+    position: absolute;
+    background-color: inherit;
+    color: inherit;
+    width: 10px;
+    height: 8px;
+    padding: 10px;
+    top: 110px;
+    left: 20px;
+    text-align: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+}.three::before{  
+      content:counter(user-counter);
+    content: "0";
+    position: absolute;
+    background-color: inherit;
+    color: inherit;
+    width: 10px;
+    height: 8px;
+    padding: 10px;
+    top: 190px;
+    left: 20px;
+    text-align: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+}.four::before{
+    content:counter(user-counter);
+    content: "0";
+    position: absolute;
+    background-color: inherit;
+    color: inherit;
+    width: 10px;
+    height: 8px;
+    padding: 10px;
+    top: 270px;
+    left: 20px;
+    text-align: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+.four::before{
+content: attr(data-text);
+display: none;
+}
+.four:hover::before{
+    background-color: blue;
+    display: block;
+}
