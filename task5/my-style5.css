@@ -1,0 +1,35 @@
+.part1,
+.part2,
+.part3{
+    padding: 20px;
+    display: inline-block;
+    width: 350px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+
+.part1{
+    height: 300px;
+    border: 5px solid  rgb(88, 88, 88);
+    
+    }
+
+.part2{
+    height: 300px;
+    border-right:  10px dotted  rgb(88, 88, 88);
+    border-left: 10px dashed rgb(88, 88, 88);
+    margin-top: 20px;
+    background-color: rgb(224, 169, 169);
+    color: white;
+    }
+
+ .part3{
+        position: absolute;
+        height: 325px;
+        border-top:  10px dashed  rgb(88, 88, 88);
+        border-bottom: 10px solid  rgb(88, 88, 88);
+        margin-top: 45px;
+        background-color: rgb(173, 105, 105);
+        color: white;
+    }
