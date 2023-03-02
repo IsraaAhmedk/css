@@ -19,10 +19,10 @@
     position: absolute;
 }
 
-q:lang(no){
+span{
         color: black;
         font-weight: bold;
         font-style: oblique;
-        font-size: medium;
+        font-size: large;
         
     }
